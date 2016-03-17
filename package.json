@@ -1,7 +1,7 @@
 {
   "name": "app",
-  "description": "app Project Generated from HotTowel Angular",
-  "version": "0.0.0",
+  "description": "app Project Generator",
+  "version": "1.0.0",
   "scripts": {
     "init": "npm install",
     "install": "bower install",
