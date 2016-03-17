@@ -5,7 +5,6 @@ var del = require('del');
 var glob = require('glob');
 var gulp = require('gulp');
 var path = require('path');
-var _ = require('lodash');
 var $ = require('gulp-load-plugins')({lazy: true});
 
 var colors = $.util.colors;
@@ -132,7 +131,7 @@ gulp.task('build', ['optimize', 'images', 'fonts'], function() {
     var msg = {
         title: 'gulp build',
         subtitle: 'Deployed to the build folder',
-        message: 'Run `gulp serve-build`'
+        message: 'Done building run `gulp serve-build`'
     };
     del(config.temp);
     log(msg);
@@ -508,7 +507,7 @@ function notify(options) {
         contentImage: path.join(__dirname, 'gulp.png'),
         icon: path.join(__dirname, 'gulp.png')
     };
-    _.assign(notifyOptions, options);
+    Object.assign(notifyOptions, options);
     notifier.notify(notifyOptions);
 }
 
