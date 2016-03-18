@@ -1,19 +1,15 @@
-# app
+# Angular Starter App
 
-**Generated from HotTowel Angular**
+This starter application is a fork of the yeoman generator made by [HotTowel](https://github.com/johnpapa/generator-hottowel). It was adapted and updated by [davidtadams](https://github.com/davidtadams).
 
-
-**adapted by davidtadams**
-
->*Opinionated Angular style guide for teams by [@john_papa](//twitter.com/john_papa)*
-
->More details about the styles and patterns used in this app can be found in my [Angular Style Guide](https://github.com/johnpapa/angularjs-styleguide) and my [Angular Patterns: Clean Code](http://jpapa.me/ngclean) course at [Pluralsight](http://pluralsight.com/training/Authors/Details/john-papa) and working in teams.
+>More details about the styles and patterns used in this app can be found in johnpapa's [Angular Style Guide](https://github.com/johnpapa/angularjs-styleguide) and johnpapa's [Angular Patterns: Clean Code](http://jpapa.me/ngclean) course.
 
 ## Prerequisites
 
 1. Install [Node.js](http://nodejs.org)
  - on OSX use [homebrew](http://brew.sh) `brew install node`
  - on Windows use [chocolatey](https://chocolatey.org/) `choco install nodejs`
+
 
 2. Install Yeoman `npm install -g yo`
 
@@ -40,7 +36,6 @@
  - Run the optimize project from the build folder with `gulp serve-build`
 
 ## Exploring The Project
-Angular starter project
 
 ### Structure
 The structure also contains a gulpfile.js and a server folder. The server is there just so we can serve the app using node. Feel free to use any server you wish.
@@ -54,6 +49,7 @@ The structure also contains a gulpfile.js and a server folder. The server is the
 When you generate the project it should run these commands, but if you notice missing packages, run these again:
 
  - `npm install`
+  - (this should also run `bower install`)
  - `bower install`
 
 ### The Modules
