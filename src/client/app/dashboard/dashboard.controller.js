@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  
+
   angular
   .module('app.dashboard')
   .controller('DashboardController', DashboardController);
@@ -11,7 +11,7 @@
     var vm = this;
     vm.news = {
       title: 'app',
-      description: 'Hot Towel Angular is a SPA template for Angular developers.'
+      description: 'This is a SPA template for Angular developers.'
     };
     vm.messageCount = 0;
     vm.people = [];

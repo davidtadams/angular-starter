@@ -14,11 +14,11 @@
 
   var config = {
     appErrorPrefix: '[app Error] ',
-    appTitle: 'app'
+    appTitle: 'Angular'
   };
 
   core.value('config', config);
-  
+
   core.config(configure);
 
   configure.$inject = ['$logProvider', 'routerHelperProvider', 'exceptionHandlerProvider'];
