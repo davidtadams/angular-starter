@@ -1,16 +1,20 @@
 {
-  "name": "app",
-  "description": "app Project Generator",
+  "name": "angularStarter",
+  "description": "Angular starter app",
   "version": "1.0.0",
   "scripts": {
     "init": "npm install",
     "install": "bower install",
-    "start": "node src/server/app.js",
-    "test": "gulp test"
+    "start": "node src/server/app.js"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/davidtadams/angular-starter.git"
+  },
+  "author": {
+    "name": "David Adams",
+    "email": "",
+    "url": "https://github.com/davidtadams"
   },
   "license": "MIT",
   "dependencies": {
