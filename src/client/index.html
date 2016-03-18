@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html ng-app="app">
-<head>
+  <head>
     <style>
         /* This helps the ng-show/ng-hide animations start at the right place. */
         /* Since Angular has this but needs to load, this gives us the class early. */
@@ -24,20 +24,20 @@
     <link rel="stylesheet" href="/.tmp/styles.css">
     <!-- endinject -->
     <!-- endbuild -->
-</head>
+  </head>
 <body>
     <div>
-        <div ng-include="'app/layout/shell.html'"></div>
-        <div id="splash-page" ng-show="showSplash">
-            <div class="page-splash">
-                <div class="page-splash-message">
-                    app
-                </div>
-                <div class="progress progress-striped active page-progress-bar">
-                    <div class="bar"></div>
-                </div>
-            </div>
+      <div ng-include="'app/layout/shell.html'"></div>
+      <div id="splash-page" ng-show="showSplash">
+        <div class="page-splash">
+          <div class="page-splash-message">
+            app
+          </div>
+          <div class="progress progress-striped active page-progress-bar">
+            <div class="bar"></div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- build:js js/lib.js -->
@@ -87,5 +87,5 @@
     <!-- inject:templates:js -->
     <!-- endinject -->
     <!-- endbuild -->
-</body>
+  </body>
 </html>
